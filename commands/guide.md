@@ -599,7 +599,7 @@ Appended to `~/.claude/a11y-audit-stats.jsonl`. No code, no paths, no project na
 ## References
 
 Shared with a11y-advisor and a11y-audit:
-- `../a11y-advisor/references/disabilities.md` — Disability categories and global stats
-- `../a11y-advisor/references/patterns.md` — Extended component patterns
-- `../a11y-advisor/references/wcag-quick.md` — WCAG 2.2 by scenario
-- `../a11y-advisor/references/legal-brief.md` — Legal quick reference
+- `../references/disabilities.md` — Disability categories and global stats
+- `../references/patterns.md` — Extended component patterns
+- `../references/wcag-quick.md` — WCAG 2.2 by scenario
+- `../references/legal-brief.md` — Legal quick reference

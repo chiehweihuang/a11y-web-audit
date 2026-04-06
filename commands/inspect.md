@@ -217,7 +217,7 @@ If the page appears to be educational (accessibility tutorial, demo site, traini
 
 ### Step 3: Manual Review
 
-Check each category systematically. Read `../a11y-advisor/references/wcag-quick.md` for criterion details.
+Check each category systematically. Read `../references/wcag-quick.md` for criterion details.
 
 For each check item, record a structured finding (pass/fail/review-needed) with:
 - WCAG criterion reference
@@ -399,7 +399,7 @@ Cap at 10. Map to risk levels:
 - 3-4: MEDIUM
 - 1-2: LOW
 
-Reference: `../a11y-advisor/references/legal-brief.md`
+Reference: `../references/legal-brief.md`
 
 ### Step 6: Build the Structured JSON
 
@@ -482,13 +482,13 @@ Write `audit-results.json` in the project root (or user-specified location). Thi
 Run the report generator script:
 
 ```bash
-node ~/.claude/skills/a11y-audit/scripts/generate-report.mjs audit-results.json
+node ./scripts/generate-report.mjs audit-results.json
 ```
 
 For before/after comparison (if previous audit exists):
 
 ```bash
-node ~/.claude/skills/a11y-audit/scripts/generate-report.mjs audit-results.json \
+node ./scripts/generate-report.mjs audit-results.json \
   --previous previous-audit-results.json \
   --output a11y-report.html
 ```
@@ -626,8 +626,8 @@ Include the appropriate config in the audit report when CI/CD integration is req
 ## References
 
 This skill shares references with a11y-advisor:
-- `../a11y-advisor/references/disabilities.md` — Disability categories
-- `../a11y-advisor/references/wcag-quick.md` — WCAG 2.2 by scenario
-- `../a11y-advisor/references/patterns.md` — Component patterns
-- `../a11y-advisor/references/legal-brief.md` — Legal quick reference
-- `../a11y-advisor/references/cases.md` — Case studies
+- `../references/disabilities.md` — Disability categories
+- `../references/wcag-quick.md` — WCAG 2.2 by scenario
+- `../references/patterns.md` — Component patterns
+- `../references/legal-brief.md` — Legal quick reference
+- `../references/cases.md` — Case studies

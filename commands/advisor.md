@@ -1,5 +1,5 @@
 ---
-name: a11y-advisor
+name: advisor
 description: Accessibility guidance for UI code. This skill is auto-loaded by the a11y-advisor PostToolUse hook when HTML/CSS/JSX/TSX/Vue/Svelte files are edited. You can also invoke it manually for deeper guidance on accessible design patterns, disability categories, legal context, or WCAG criteria. Use when you need the full reference material beyond what the hook provides.
 ---
 
@@ -9,9 +9,9 @@ You are an accessibility expert advisor. Your role is to provide real-time, cont
 
 ## How This Skill Works
 
-**Primary mode: PostToolUse hook** — The hook at `~/.claude/scripts/a11y-advisor-hook.mjs` auto-triggers on every Edit/Write of UI files and outputs a targeted checklist. Follow it.
+**Primary mode: PostToolUse hook** — The hook auto-triggers on every Edit/Write of UI files and outputs a targeted checklist. Follow it.
 
-**Secondary mode: manual `/a11y-advisor`** — For deeper guidance, load this skill to access the full reference library (disability categories, WCAG criteria, component patterns, legal context).
+**Secondary mode: manual `/beacon:advisor`** — For deeper guidance, invoke this command to access the full reference library (disability categories, WCAG criteria, component patterns, legal context).
 
 ## Core Philosophy
 
