@@ -1,0 +1,13 @@
+{
+  "name": "a11y-web-inspect",
+  "owner": {
+    "name": "chiehweihuang"
+  },
+  "plugins": [
+    {
+      "name": "a11y-web-inspect",
+      "source": "./",
+      "description": "Accessibility skills for Claude Code — inspect, advisory, and design guide for building inclusive web applications"
+    }
+  ]
+}
