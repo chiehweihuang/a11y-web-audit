@@ -1,13 +1,13 @@
 ---
-name: a11y-audit
+name: a11y-inspect
 description: >-
-  Run a structured accessibility audit with quantitative scoring, interactive HTML reports,
-  and before/after comparison. Use when the user asks to audit, review, or assess accessibility
-  of a project, page, component, or design. Triggers on "accessibility audit", "a11y audit",
-  "WCAG compliance check", "accessibility review", "check accessibility", "a11y score",
-  or similar. Also use when the user wants to compare accessibility improvements over time,
-  generate an accessibility report, or assess legal compliance risk for their website or app.
-  Even if the user just says "how accessible is this?" — that is an audit request.
+  Run a structured accessibility inspection with quantitative scoring, interactive HTML reports,
+  and before/after comparison. Use when the user asks to inspect, review, or assess accessibility
+  of a project, page, component, or design. Triggers on "accessibility inspect", "a11y inspect",
+  "a11y audit", "WCAG compliance check", "accessibility review", "check accessibility",
+  "a11y score", or similar. Also use when the user wants to compare accessibility improvements
+  over time, generate an accessibility report, or assess legal compliance risk for their website
+  or app. Even if the user just says "how accessible is this?" — that is an inspect request.
 ---
 
 # Accessibility Audit v2.1
