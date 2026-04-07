@@ -1,5 +1,4 @@
 ---
-name: inspect
 description: >-
   Lighthouse-style accessibility inspection: 0-100 scoring across 10 categories (contrast,
   keyboard, screen reader, forms, media, motion, touch, cognitive, responsive, AEO),
