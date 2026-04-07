@@ -73,7 +73,7 @@ const msg = [
   ...checks.map((c, i) => `  ${i + 1}. ${c}`),
   '',
   'If issues found, apply fixes. If clean, proceed silently.',
-  'For detailed patterns: read ~/.claude/skills/a11y-advisor/references/patterns.md',
+  'For detailed patterns: invoke /beacon:advisor or read the references/ directory in the beacon plugin.',
 ].join('\n');
 
 process.stderr.write(msg + '\n');
